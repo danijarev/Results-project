@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="flex-box">
+    <section class="flex-item-1">
+      <div class="section1-wrapper">
+  <h1 class="section1-title">Your Result</h1>
+  <div class="score-wrapper">
+  <p class="points-scored">76</p>
+  <p class="possible-points">of 100</p>
+</div>
+  <h1 class="great">Great</h1>
+  <p class="section1-p">You scored higher than 65% of the people who have taken these tests.</p>
+</div>
+</section>
+<section class="flex-item-2">
+  <div class="section2-wrapper">
+  <h1 class="section2-title ">Summary</h1>
+
+  <table cellspacing="0">
+    <tr class="reaction-row">
+  <td class="reaction-text"><img class="favicon-icon" src="assets/images/icon-reaction.svg" alt="Icon for reaction row"> Reaction </td>
+  <td><span class="summary-points-obtained">80</span> <span class="summary-possible-points"> / 100 </span></td>
+</tr>
+<tr class="memory-row">
+  <td class="memory-text"><img class="favicon-icon" src="assets/images/icon-memory.svg" alt="Icon for reaction row"> Memory</td>
+  <td><span class="summary-points-obtained">92</span>  <span class="summary-possible-points">/ 100</span></td>
+</tr>
+<tr class="verbal-row">
+  <td class="verbal-text"><img class="favicon-icon" src="assets/images/icon-verbal.svg" alt="Icon for verbal row"> Verbal</td>
+  <td><span class="summary-points-obtained">61</span>  <span class="summary-possible-points">/ 100</span></td>
+</tr>
+<tr class="visual-row">
+  <td class="visual-text"><img class="favicon-icon" src="assets/images/icon-visual.svg" alt="Icon for visual row"> Visual</td>
+  <td><span class="summary-points-obtained">72</span>  <span class="summary-possible-points">/ 100</span></td>
+</tr>
+</table>
+
+<button>  Continue </button>
+</div>
+</div>
+</section>
+</main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
